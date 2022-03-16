@@ -6,9 +6,26 @@
     padding: 0;
 }
 #wrapper {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
+    width: 80% !important;
+    height: 60%;
     display: flex;
+}
+#texts {
+    width: 50%;
+
+}
+
+#picture {
+    width:50%;
+    height: 100%;
+}
+#image {
+    height: inherit;
 }
